@@ -5,17 +5,18 @@
   align-items: center;
 }
 
-.profile img {
+.profile__photo {
   height: 500px;
   border-radius: 50px;
+  margin-bottom: 30px;
 }
 
-.profile__introduce span {
+.profile__introduce h1 {
   font-size: 25px;
   font-style: italic;
 }
 
-#name {
-  font-size: 1.9rem;
+#fullname {
+  font-size: 30px;
   font-weight: 700;
 }
