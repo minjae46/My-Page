@@ -1,1 +1,1 @@
-# My Page Ver 1.1
+# My Page Ver 1.2
