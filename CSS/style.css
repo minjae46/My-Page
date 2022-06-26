@@ -1,3 +1,7 @@
+@import "CSS/index.css";
+@import "CSS/About.css";
+@import "CSS/Contact.css";
+
 * {
   box-sizing: border-box;
 }
@@ -25,10 +29,6 @@ header span a {
   text-decoration: none;
 }
 
-main {
-  animation: fadein 0.8s;
-}
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -36,4 +36,8 @@ main {
   to {
     opacity: 1;
   }
+}
+
+main {
+  animation: fadein 0.8s;
 }
