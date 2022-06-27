@@ -1,8 +1,8 @@
 @import "reset.css";
 
-@import "CSS/index.css";
-@import "CSS/About.css";
-@import "CSS/Contact.css";
+@import "pages/index.css";
+@import "pages/About.css";
+@import "pages/Contact.css";
 
 * {
   box-sizing: border-box;
