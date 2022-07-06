@@ -1,10 +1,11 @@
 .about {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.about-box {
+.about__photo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,18 +13,15 @@
   position: relative;
 }
 
-.about__photo {
+.about__photo img {
   height: 550px;
   border-radius: 50px;
 }
 
-.about__text {
-  position: absolute;
-  top: 100px;
-}
-
-.about__text h1 {
-  color: white;
+.about__photo--text {
   font-size: 25px;
   font-style: italic;
+  color: white;
+  position: absolute;
+  top: 100px;
 }
