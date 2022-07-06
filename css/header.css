@@ -1,0 +1,16 @@
+header {
+  height: 70px;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+}
+
+header span a {
+  color: black;
+  text-decoration: none;
+  margin: 0 30px;
+}
